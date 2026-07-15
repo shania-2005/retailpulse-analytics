@@ -1,0 +1,32 @@
+RetailPulse Project
+Machine Learning Model Summary
+
+1. Customer Segmentation
+   Algorithm: K-Means
+   Metric: Silhouette Score = 0.6506
+   Selected Model: K-Means
+
+2. Churn Prediction
+   Algorithm: Random Forest
+   Metric: Accuracy = 100%
+   Selected Model: Random Forest
+
+3. Demand Forecasting
+   Models Tested:
+   - Prophet
+     MAE = 444.90
+     RMSE = 1418.87
+
+   - LSTM
+     MAE = 378.74
+     RMSE = 1327.63
+
+   Selected Model: LSTM
+   Reason: Lower MAE and RMSE than Prophet, therefore better forecasting performance.
+
+Prepared by:
+Nitesh
+
+
+
+
