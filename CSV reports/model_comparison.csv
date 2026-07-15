@@ -1,0 +1,4 @@
+Model,Algorithm,Metric,Score
+Customer Segmentation,K-Means,Silhouette Score,0.6506
+Churn Prediction,Random Forest,Accuracy,1.0000
+Demand Forecasting (Prophet),Prophet,MAE / RMSE,"MAE = 444.90, RMSE = 1418.87"
